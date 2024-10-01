@@ -1,0 +1,9 @@
+-- Teleport Trading Plaza TTD
+wait (10)
+print("Teleport Ke Dekat Booth")
+if game.PlaceId == 14682939953 then
+    repeat task.wait() until game:isLoaded()
+    repeat task.wait() until game:GetService("Players")
+    repeat task.wait() until game:GetService("Players").LocalPlayer
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1437.7, 115.55, 2549.2)
+end
