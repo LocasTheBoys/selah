@@ -1,0 +1,26 @@
+--print("TTD SCRIPT JUAL JUAL Activity Crate")
+getgenv().Config = {
+    ["AutoListForSale"] = true,
+    ["SelectProduct"] = "ActivityCrate",--untuk plaza auto sell
+    ["ALFS_HopServer"] = true,--Ini untuk plaza
+    ["ALFS_DelayHop"] = 15,--Ini untuk plaza satuan (Menit)
+    ["GemPrice"] = "45", --GANTI HARGANYA
+    ["WH_MailSent"] = false,
+    ["MailName"] = "Gansdangvp2t",
+    ["RequiredGem"] = 2000,
+    ["DelayJoin"] = 15,
+    ["AutoClaimEventPass"] = true,
+    ["AutoBuyEvent"] = true, --buy crates event
+    ["AutoClaimQuest"] = true,
+    ["AutoClaimEventQuest"] = true,
+    ["AutoClaimDailyReward"] = true,
+    ["AutoClaimPlaytimeReward"] = true,
+    ["DeleteMap"] = true,
+    ["AutoRejoin"] = true,
+    ["AutoSave"] = false,
+    ["BoostFPS"] = true
+}
+
+_G.key = "0f135c0c642b4721b321fb96d25bee5727d7e5109d01128fb68aeda8c042532e"
+
+repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
