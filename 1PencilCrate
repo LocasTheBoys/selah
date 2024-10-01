@@ -20,7 +20,6 @@ getgenv().Config = {
     ["AutoSave"] = false,
     ["BoostFPS"] = true
 }
-
 getgenv().Key = "k29557962ec037367941922a"
 
 repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
