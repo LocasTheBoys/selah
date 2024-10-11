@@ -11,7 +11,7 @@ end
 
 local scripts = {
     "https://raw.githubusercontent.com/LocasTheBoys/selah/refs/heads/main/1ClockCrate",
-    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/refs/heads/main/AutoTPPlazaTTD",
+    "https://raw.githubusercontent.com/LocasTheBoys/selah/main/JalanPlaza",
     "https://raw.githubusercontent.com/LocasTheBoys/selah/refs/heads/main/FPSCAP",
     "https://raw.githubusercontent.com/LocasTheBoys/selah/refs/heads/main/AntiDC"
 }
